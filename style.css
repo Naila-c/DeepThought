@@ -1,0 +1,552 @@
+body{
+  font-family: fantasy;
+  position: absolute;
+}
+
+.navbar bg-light {
+  margin-top: 0px;
+position: absolute;
+margin-right: 0px;
+  /* Stay in place */
+  z-index: 0;
+  /* Stay on top */
+}
+
+.navv {
+  height: 90px;
+  background-color: #EDEDED;
+  width: 1440px;
+  border-style: solid;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-color: #F0F0F0;
+}
+
+/* The sidebar menu */
+.sidebar {
+  height: 100%;  /* 100% Full-height */
+  width: 50px;  /* 0 width - change this with JavaScript */
+  position: fixed;  /* Stay in place */
+  z-index: 1;  /* Stay on top */
+  top: 220px;
+  left: 0;
+  background-color: white;
+  color: black;
+  overflow-x: hidden;  /* Disable horizontal scroll */
+  padding-top: 60px;  /* Place content 60px from the top */
+  padding-left: 50px;
+  transition: 0.5s;  /* 0.5 second transition effect to slide in the sidebar */
+  box-sizing: border-box;
+  border-style: solid;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  border-top-left-radius: 0px;
+  border-color: #F0F0F0;
+}
+
+.sidebar ul li .topNav {
+  list-style: circle;
+  width: 200%;
+  height: 50px;
+  line-height: 10px;
+  background: black;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+/* The sidebar links */
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.topNav .openbtn {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: -5px;
+  font-size: 20px;
+  margin-left: 50px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+.logo {
+  padding-top: 20px;
+}
+
+.navv2 {
+  margin-top: 20px;
+  height: 43px;
+  background-color: #F9F3EE;
+  width: 100%;
+  border-style: solid;
+  border-color: #F9F3EE;
+}
+
+.nav-item {
+  float: right;
+  width: 1440px;
+}
+
+h3 {
+  color: white;
+  font-family: serif;
+}
+
+h4 {
+  margin-left: 20px;
+}
+
+.new1 {
+  margin-top: 120px;
+  height: 51px;
+  margin-left: 177px;
+  margin-right: 130px;
+  padding-left: 40px;
+  padding-top: 8px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  background: #0029FF;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.container ul li {
+  float: left;
+  list-style: none;
+  overflow: hidden;
+  width: 461px;
+  height: 320px;
+  margin-left: 90px;
+  background-color: white;
+  margin-top: 80px;
+  box-sizing: border-box;
+  border-style: solid;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  border-color: #F0F0F0;
+}
+
+.container ul li .bottom {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background: black;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+
+.Main-container {
+  height: 2849px;
+  margin-top: 0px;
+  margin-left: 177px;
+  margin-right: 130px;
+  background: #FFFFFF;
+  box-sizing: border-box;
+  border: 1px solid #F0F0F0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 329px;
+}
+
+.Demo {
+  font-weight: bold;
+  position: absolute;
+  width: 165px;
+  height: 42px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  margin-top: 44px;
+  color: black;
+  text-align: center;
+}
+
+.Container2 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 448px;
+  height: 627px;
+  margin-left: 720px;
+  margin-top: 80px;
+  background: #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 25px;
+  border: 1px solid #F0F0F0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Task-Heading2 {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 9px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.inner-threads ul li {
+  float: left;
+  overflow: hidden;
+  list-style: none;
+  width: 40%;
+  height: 100px;
+  background: white;
+  margin: 20px 0px 20px 55px;
+  border-radius: 25px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  margin-left: 20px;
+  margin-top: 5px;
+  border: 1px solid #F0F0F0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.inner-threads ul li .sub-thread {
+  width: 100%;
+  height: 40px;
+  line-height: 50px;
+  background: #F0F0F0;
+  text-align: center;
+  color: black;
+  font-size: 15px;
+}
+
+
+.inner-threadlg ul li {
+  float: left;
+  overflow: hidden;
+  list-style: none;
+  height: 100px;
+  background: white;
+  margin: 20px 0px 20px 55px;
+  border-radius: 25px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  margin-left: 0px;
+  margin-top: 20px;
+  border: 1px solid #F0F0F0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.inner-threadlg ul li .sub-threadsb3 {
+  width: 400px;
+  height: 40px;
+  line-height: 50px;
+  background: #F0F0F0;
+  text-align: left;
+  padding-left: 10px;
+  color: black;
+  font-size: 15px;
+}
+
+
+h5 {
+  padding-left: 30px;
+}
+
+.select-emotion {
+  margin-left: 120px;
+}
+
+.thread-credit {
+  margin-left: 20px;
+}
+
+.floppy-disk {
+  margin-left: 280px;
+}
+
+.Container4 {
+  list-style: none;
+  overflow: hidden;
+  position: absolute;
+  width: 456px;
+  height: 282px;
+  margin-left: 150px;
+  margin-top: 780px;
+  background-color: white;
+  border-radius: 25px;
+  box-sizing: border-box;
+  border-style: solid;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  border-color: #F0F0F0;
+}
+
+.Container4 ul li .task-heading4 {
+  list-style: none;
+  width: 110%;
+  height: 50px;
+  margin-left: -40px;
+  line-height: 50px;
+  background: black;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.bottom4 {
+  list-style: none;
+  width: 400px;
+  height: 180px;
+  margin-top: 5px;
+  margin-left: 20px;
+  background-color: white;
+  border-radius: 25px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-radius: 25px;
+  border-color: #F0F0F0;
+}
+
+.Container5 ul li {
+  position: absolute;
+  list-style: none;
+  width: 452px;
+  height: 612px;
+  left: 900px;
+  top: 1075px;
+  background-color: white;
+  border-radius: 25px;
+  box-sizing: border-box;
+  border-style: solid;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  border-color: #F0F0F0;
+}
+
+.Container5 ul li .bottom5 {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background: black;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.wiki-img {
+  width: 500px;
+  height: 600px;
+}
+
+.Container6 ul li {
+  position: absolute;
+  list-style: none;
+  width: 452px;
+  height: 860px;
+  margin-left: 120px;
+  margin-top: 1465px;
+  background-color: white;
+  border-radius: 25px;
+  box-sizing: border-box;
+  border-style: solid;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-color: #F0F0F0;
+}
+
+.Container6 ul li .bottom6 {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background: black;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.navv3 {
+  margin-top: 20px;
+  height: 43px;
+  background-color: #F0F0F0;
+  width: 100%;
+  border-style: solid;
+  border-color: #F0F0F0;
+}
+
+.inner-thread-Introduction1 ul li {
+  float: left;
+  overflow: hidden;
+  list-style: none;
+  width: 350px;
+  height: 100px;
+  background: white;
+  border-radius: 25px;
+  box-sizing: border-box;
+  margin-top: 15px;
+  margin-left: auto;
+  border: 1px solid #F0F0F0;
+}
+
+.inner-thread-Introduction1 .innerthread-sb1 {
+  width: 100%;
+  height: 40px;
+  line-height: 50px;
+  background: #F0F0F0;
+  text-align: center;
+  color: black;
+  font-size: 15px;
+}
+
+.navv4 {
+  width: 100%;
+  margin-top: 135px;
+  background-color: white;
+  box-sizing: border-box;
+  border: 2px solid #F0F0F0;
+}
+
+.inner-threadlg ul li .sub-threadsb4 {
+  width: 350px;
+  height: 40px;
+  line-height: 50px;
+  background: #F0F0F0;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  text-align: left;
+}
+
+.inner-threadlg ul li {
+  float: left;
+  overflow: hidden;
+  list-style: none;
+  width: 350px;
+  height: 100px;
+  background: white;
+  margin: 20px 0px 0px 0px;
+  border-radius: 25px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  border: 1px solid #F0F0F0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.inner-threadlg3 ul li .sub-threadsb5 {
+  width: 350px;
+  height: 40px;
+  line-height: 50px;
+  background: #F0F0F0;
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.inner-threadlg3 ul li {
+  float: left;
+  overflow: hidden;
+  list-style: none;
+  width: 350px;
+  height: 100px;
+  background: white;
+  margin: 190px 0px 0px 0px;
+  border-radius: 25px;
+  border: 2px solid black box-sizing: border-box;
+  border: 1px solid #F0F0F0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navv5 {
+  margin-top: 320px;
+  height: 40px;
+  background-color: #F0F0F0;
+  width: 100%;
+  border-style: solid;
+  border-color: #F0F0F0;
+}
+
+.borderline {
+  border: 2px solid #F0F0F0;
+  border-radius: 30px;
+  border-top-color: white;
+  margin-top: 15px;
+  box-sizing: border-box;
+}
+
+.container7 ul li {
+  float: left;
+  list-style: none;
+  overflow: hidden;
+  width: 472px;
+  height: 222px;
+  margin-left: 690px;
+  background-color: white;
+  margin-top: 1060px;
+  border-radius: 25px;
+  box-sizing: border-box;
+  border-style: solid;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  border-color: #F0F0F0;
+}
+
+.container7 ul li .bottom {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background: black;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+
+.container8 ul li {
+  float: left;
+  list-style: none;
+  overflow: hidden;
+  position: absolute;
+  width: 500px;
+  height: 380px;
+  margin-top: 2580px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 25px;
+  box-sizing: border-box;
+  border-style: solid;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  border-color: #F0F0F0;
+}
+
+.container8 ul li .bottom8 {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background: black;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+
+}
